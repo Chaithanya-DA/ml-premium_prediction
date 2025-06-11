@@ -6,8 +6,8 @@ model_rest = load("artifacts/model_rest.joblib")
 
 
 
-scaler_young = load(r"C:\Users\venka\OneDrive\Desktop\pythonpractice\statistics\App\artifacts\scaler_young.joblib")
-scaler_rest = load(r"C:\Users\venka\OneDrive\Desktop\pythonpractice\statistics\App\artifacts\scaler_rest.joblib")
+scaler_young = load("artifacts/scaler_young.joblib")
+scaler_rest = load("artifacts/scaler_rest.joblib")
 cols_to_scale = [
     'Age',
     'Number Of Dependants',
