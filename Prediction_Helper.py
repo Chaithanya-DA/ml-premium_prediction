@@ -1,7 +1,7 @@
 import pandas as pd
 from joblib import load
 
-model_young = load(r"C:\Users\venka\OneDrive\Desktop\pythonpractice\statistics\App\artifacts\model_young.joblib")
+model_young = load("artifacts/model_young.joblib")
 model_rest = load(r"C:\Users\venka\OneDrive\Desktop\pythonpractice\statistics\App\artifacts\model_rest.joblib")
 
 
